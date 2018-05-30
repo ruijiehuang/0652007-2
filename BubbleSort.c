@@ -1,6 +1,6 @@
 #define SIZE 10
 //sort an array of integers using bubble sort algorithm
-void bubbleSort(int * const array, unsigned int size )
+void bubbleSort(const int * array, unsigned int size )
 	{
 		void swap(int *element1Ptr, int *element2Ptr );
 		unsigned int pass;//pass counter
